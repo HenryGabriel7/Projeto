@@ -1,0 +1,111 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  margin: 0; 
+}
+
+.round-image {
+  border-radius: 50%; 
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover; 
+}
+
+body {
+  background-color: #000000; 
+}
+
+.phrase-box {
+  background-color: #ffffff; 
+  border: 2px solid #ffffff; 
+  border-radius: 10px; 
+  padding: 20px;
+  margin: 20px auto; 
+  max-width: 400px; 
+  font-size: 18px; 
+  color: #333; 
+  text-align: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  top: 600px;
+  right: 200px;
+}
+.phrase-box2 {
+  background-color: #ffffff; 
+  border: 2px solid #ffffff; 
+  border-radius: 10px; 
+  padding: 20px;
+  margin: 20px auto; 
+  max-width: 400px; 
+  font-size: 18px; 
+  color: #333; 
+  text-align: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  top: 600px;
+  right: 1600px;
+}
+
+.instagram-image {
+  position: absolute; 
+  top: 1026px; 
+  left: 2000px; 
+  width: 25px; 
+  height: 25px; 
+  object-fit: cover; 
+}
+
+.round-image {
+  border-radius: 50%; 
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover; 
+  border: 3px solid #ffffff;
+}
+
+
+
+.round-image {
+  border-radius: 50%; 
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover; 
+  border: 3px solid #ffffff;
+}
+
+.tiktok-image {
+  position: absolute; 
+  top: 1020px; 
+  left: 2040px; 
+  width: 37px; 
+  height: 37px; 
+  font-size: 20px;
+  object-fit: cover; 
+}
+
+p {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+
+.bottom-bar {
+    position: fixed; /* Fixa a barra na parte inferior da tela */
+    bottom: 0; /* Alinha a barra ao fundo */
+    left: 0; /* Alinha a barra à esquerda */
+    width: 100%; /* Faz a barra ocupar toda a largura da tela */
+    height: 50px; /* Define a altura da barra */
+    background-color: #ffffff; /* Cor de fundo da barra (ajuste conforme necessário) */
+    color: #000000; /* Cor do texto dentro da barra */
+    display: flex; /* Permite alinhar conteúdo dentro da barra */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil acima da barra */
+    border-radius: 15px 15px 0 0;
+  }
