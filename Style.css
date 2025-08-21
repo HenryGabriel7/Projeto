@@ -148,3 +148,11 @@ body {
     font-size: 20px;
     width: 200px;
   }
+  
+  .imagem {
+    transition: transform 0.5s;
+  }
+  
+  .imagem:hover {
+    transform: scale(1.2);
+  }
