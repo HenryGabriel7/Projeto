@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #111111; 
+  background-color: #000000; 
 }
 
 .phrase-box {
@@ -155,4 +155,27 @@ body {
   
   .imagem:hover {
     transform: scale(1.2);
+  }
+
+ .phrase-box4 {
+    width: 100px; /* largura da box */
+    height: 25px; /* altura da box */
+    background-color: #fff; /* cor de fundo da box */
+    border: 1px solid #ddd; /* borda da box */
+    border-radius: 10px; /* arredondamento das bordas da box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* sombra da box */
+    padding: 20px; /* espaçamento interno da box */
+    font-family: Arial, sans-serif; /* fonte da box */
+  }
+  
+  .phrase-box4 {
+    margin-top: 0; /* espaçamento superior do título */
+    font-size: 24px; /* tamanho da fonte do título */
+    color: #333; /* cor do título */
+  }
+  
+  .phrase-box4 {
+    margin-bottom: 10px; /* espaçamento entre os parágrafos */
+    font-size: 16px; /* tamanho da fonte dos parágrafos */
+    color: #666; /* cor dos parágrafos */
   }
